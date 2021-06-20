@@ -1,0 +1,10 @@
+2021-06-20T12:44:02+00:00 CRITICAL syntax error, unexpected 'e' (T_STRING), expecting ',' or ';' in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 564
+
+2021-06-20T20:39:04+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-includes\rest-api\class-wp-rest-server.php on line 1410
+
+2021-06-20T20:55:26+00:00 CRITICAL syntax error, unexpected ')' in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 39
+
+2021-06-20T20:57:09+00:00 CRITICAL syntax error, unexpected ')' in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 39
+
+2021-06-20T20:57:27+00:00 CRITICAL syntax error, unexpected ')' in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 39
+
