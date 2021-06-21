@@ -1,0 +1,28 @@
+2021-06-21T10:27:16+00:00 CRITICAL syntax error, unexpected 'add_meta_box' (T_STRING) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1567
+
+2021-06-21T10:27:58+00:00 CRITICAL syntax error, unexpected 'add_meta_box' (T_STRING) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1567
+
+2021-06-21T10:29:04+00:00 CRITICAL syntax error, unexpected 'add_meta_box' (T_STRING) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1567
+
+2021-06-21T10:35:23+00:00 CRITICAL syntax error, unexpected 'add_meta_box' (T_STRING) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1567
+
+2021-06-21T10:36:43+00:00 CRITICAL syntax error, unexpected 'add_meta_box' (T_STRING) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1567
+
+2021-06-21T10:36:54+00:00 CRITICAL syntax error, unexpected 'add_meta_box' (T_STRING) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1567
+
+2021-06-21T10:48:12+00:00 CRITICAL Cannot redeclare adding_custom_meta_boxes() (previously declared in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php:1572) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1586
+
+2021-06-21T10:48:47+00:00 CRITICAL Cannot redeclare adding_custom_meta_boxes() (previously declared in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php:1572) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1586
+
+2021-06-21T10:49:16+00:00 CRITICAL Cannot redeclare adding_custom_meta_boxes() (previously declared in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php:1572) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1586
+
+2021-06-21T10:49:35+00:00 CRITICAL Cannot redeclare adding_custom_meta_boxes() (previously declared in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php:1572) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1586
+
+2021-06-21T10:50:12+00:00 CRITICAL Cannot redeclare adding_custom_meta_boxes() (previously declared in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php:1572) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1586
+
+2021-06-21T10:50:44+00:00 CRITICAL Cannot redeclare adding_custom_meta_boxes() (previously declared in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php:1572) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1590
+
+2021-06-21T10:54:05+00:00 CRITICAL Cannot redeclare adding_custom_meta_boxes() (previously declared in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php:1572) in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1590
+
+2021-06-21T11:15:43+00:00 CRITICAL syntax error, unexpected '}' in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\includes\meta-boxes.php on line 1517
+

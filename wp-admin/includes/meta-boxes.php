@@ -1505,8 +1505,20 @@ function register_and_do_post_meta_boxes( $post ) {
 	if ( $thumbnail_support && current_user_can( 'upload_files' ) ) {
 		add_meta_box( 'postimagediv', esc_html( $post_type_object->labels->featured_image ), 'post_thumbnail_meta_box', null, 'side', 'low', array( '__back_compat_meta_box' => true ) );
 	}
+    add_meta_box( 'my-meta-box', 'Email', 'render_my_meta_box', null, 'side', 'low' );
 
-	if ( post_type_supports( $post_type, 'excerpt' ) ) {
+
+function render_my_meta_box(){?>
+
+
+    <span>Введите Email:</span><br><br>
+    <input type="email" id="email_send_message" name="email_send_message">
+
+<?php
+}
+
+
+if ( post_type_supports( $post_type, 'excerpt' ) ) {
 		add_meta_box( 'postexcerpt', __( 'Excerpt' ), 'post_excerpt_meta_box', null, 'normal', 'core', array( '__back_compat_meta_box' => true ) );
 	}
 
@@ -1567,7 +1579,41 @@ function register_and_do_post_meta_boxes( $post ) {
 		add_meta_box( 'authordiv', __( 'Author' ), 'post_author_meta_box', null, 'normal', 'core', array( '__back_compat_meta_box' => true ) );
 	}
 
-	/**
+
+/*    add_action( 'add_meta_boxes', 'adding_custom_meta_boxes', 10, 2 );
+        function adding_custom_meta_boxes( $post_type, $post ) {
+        die("Pizdets");
+        add_meta_box( 'my-meta-box', 'Мой метаблок', 'render_my_meta_box', 'post', 'normal', 'default' );
+    }
+
+    function render_my_meta_box(){
+        echo 'HTML метаблока';
+        echo "<script>alert('11232132212')</script>";
+        wp_die("Пагиб молодым");
+    }
+
+    function wpdocs_register_meta_boxes() {
+        add_meta_box( 'meta-box-id', __( 'My Meta Box', 'textdomain' ), 'wpdocs_my_display_callback', 'post' );
+    }
+    add_action( 'add_meta_boxes', 'wpdocs_register_meta_boxes' );*/
+
+/*
+    add_action( 'add_meta_boxes_post', 'adding_custom_meta_boxes' );
+
+    function adding_custom_meta_boxes( $post ) {
+        add_meta_box(
+            'my-meta-box',
+            __( 'My Meta Box' ),
+            'render_my_meta_box',
+            'post',
+            'normal',
+            'default'
+        );
+    }*/
+
+
+
+    /**
 	 * Fires after all built-in meta boxes have been added.
 	 *
 	 * @since 3.0.0
