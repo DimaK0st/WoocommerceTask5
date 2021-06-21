@@ -45,17 +45,11 @@ add_action( 'save_post_jobs', 'save_data_so', 10, 3 );
 add_action( 'draft_to_publish','func1'); //Срабатывает при нажатии опубликовать
 function func1(){
     $emailAddress=$_POST['email_send_message'];
-    echo "<script>alert('Оно работает?')</script>";
-    var_dump($_POST);
-    echo "<script>alert(".$_POST['email_send_message'].")</script>";
-
-    echo "<script>alert(".$_POST['email_send_message'].")</script>";
     $subject = 'Добавление нового товара';
-    $headers = 'From: My Name <myname@mydomain.com>' . "\r\n";
-    $message = "На вашем сайте следующая запись была обновлена:\n\n";
+    $headers = 'From: Dima Kost <byDimaKost@huis.com>' . "\r\n";
+    $message = "На вашем сайте был добавлен новый товар:\n\n";
     // Отправляем письмо.
     wp_mail( $emailAddress, $subject, $message, $headers );
-    wp_die( 'hey' );
 }
 
 
