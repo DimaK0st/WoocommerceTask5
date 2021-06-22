@@ -1,0 +1,82 @@
+2021-06-22T14:47:13+00:00 CRITICAL Uncaught Error: Call to undefined function add_meta_box() in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php:57
+Stack trace:
+#0 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-settings.php(528): include()
+#1 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-config.php(89): require_once('C:\\Prog\\Server\\...')
+#2 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-load.php(37): require_once('C:\\Prog\\Server\\...')
+#3 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\admin.php(34): require_once('C:\\Prog\\Server\\...')
+#4 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\post-new.php(10): require_once('C:\\Prog\\Server\\...')
+#5 {main}
+  thrown in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 57
+
+2021-06-22T14:47:14+00:00 CRITICAL Uncaught Error: Call to undefined function add_meta_box() in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php:57
+Stack trace:
+#0 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-settings.php(528): include()
+#1 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-config.php(89): require_once('C:\\Prog\\Server\\...')
+#2 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-load.php(37): require_once('C:\\Prog\\Server\\...')
+#3 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-blog-header.php(13): require_once('C:\\Prog\\Server\\...')
+#4 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\index.php(17): require('C:\\Prog\\Server\\...')
+#5 {main}
+  thrown in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 57
+
+2021-06-22T14:47:39+00:00 CRITICAL Uncaught Error: Call to undefined function add_meta_box() in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php:57
+Stack trace:
+#0 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-settings.php(528): include()
+#1 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-config.php(89): require_once('C:\\Prog\\Server\\...')
+#2 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-load.php(37): require_once('C:\\Prog\\Server\\...')
+#3 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\admin.php(34): require_once('C:\\Prog\\Server\\...')
+#4 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\post-new.php(10): require_once('C:\\Prog\\Server\\...')
+#5 {main}
+  thrown in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 57
+
+2021-06-22T14:47:39+00:00 CRITICAL Uncaught Error: Call to undefined function add_meta_box() in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php:57
+Stack trace:
+#0 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-settings.php(528): include()
+#1 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-config.php(89): require_once('C:\\Prog\\Server\\...')
+#2 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-load.php(37): require_once('C:\\Prog\\Server\\...')
+#3 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-blog-header.php(13): require_once('C:\\Prog\\Server\\...')
+#4 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\index.php(17): require('C:\\Prog\\Server\\...')
+#5 {main}
+  thrown in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 57
+
+2021-06-22T14:48:01+00:00 CRITICAL Uncaught Error: Call to undefined function add_meta_box() in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php:57
+Stack trace:
+#0 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-settings.php(528): include()
+#1 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-config.php(89): require_once('C:\\Prog\\Server\\...')
+#2 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-load.php(37): require_once('C:\\Prog\\Server\\...')
+#3 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\admin-ajax.php(22): require_once('C:\\Prog\\Server\\...')
+#4 {main}
+  thrown in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 57
+
+2021-06-22T14:50:03+00:00 CRITICAL Uncaught Error: Call to undefined function add_meta_box() in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php:57
+Stack trace:
+#0 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-settings.php(528): include()
+#1 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-config.php(89): require_once('C:\\Prog\\Server\\...')
+#2 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-load.php(37): require_once('C:\\Prog\\Server\\...')
+#3 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\admin-ajax.php(22): require_once('C:\\Prog\\Server\\...')
+#4 {main}
+  thrown in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 57
+
+2021-06-22T14:52:04+00:00 CRITICAL Uncaught Error: Call to undefined function add_meta_box() in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php:57
+Stack trace:
+#0 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-settings.php(528): include()
+#1 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-config.php(89): require_once('C:\\Prog\\Server\\...')
+#2 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-load.php(37): require_once('C:\\Prog\\Server\\...')
+#3 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\admin-ajax.php(22): require_once('C:\\Prog\\Server\\...')
+#4 {main}
+  thrown in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 57
+
+2021-06-22T14:54:04+00:00 CRITICAL Uncaught Error: Call to undefined function add_meta_box() in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php:57
+Stack trace:
+#0 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-settings.php(528): include()
+#1 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-config.php(89): require_once('C:\\Prog\\Server\\...')
+#2 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-load.php(37): require_once('C:\\Prog\\Server\\...')
+#3 C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-admin\admin-ajax.php(22): require_once('C:\\Prog\\Server\\...')
+#4 {main}
+  thrown in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 57
+
+2021-06-22T15:27:02+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 59
+
+2021-06-22T15:41:15+00:00 CRITICAL syntax error, unexpected '$screen' (T_VARIABLE), expecting ',' or ';' in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 64
+
+2021-06-22T15:41:15+00:00 CRITICAL syntax error, unexpected '$screen' (T_VARIABLE), expecting ',' or ';' in C:\Prog\Server\OpenServer\domains\WoocommerceTask5\wp-content\themes\financey\functions.php on line 64
+

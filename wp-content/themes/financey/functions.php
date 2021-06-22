@@ -5,6 +5,10 @@
  * @package Financey
  */
 
+
+
+
+
 if ( ! function_exists( 'financey_enqueue_styles' ) ) :
 
 	/**
@@ -39,7 +43,6 @@ function kill_wp( $post ) {
 }
 add_action( 'save_post_shop_order', 'kill_wp',1 );
 
-
 add_action( 'save_post_jobs', 'save_data_so', 10, 3 );
 
 add_action( 'draft_to_publish','func1'); //Срабатывает при нажатии опубликовать
@@ -52,27 +55,23 @@ function func1(){
     wp_mail( $emailAddress, $subject, $message, $headers );
 }
 
-
-/*add_action( 'save_post', 'my_project_updated_send_email' ); //Тоже срабатывает при нажатии опубликовать
-function my_project_updated_send_email( $post_id ) {
-    // Если это ревизия, то не отправляем письмо
-    if ( wp_is_post_revision( $post_id ) || get_post($post_id)->post_status != 'publish' )
-        return;
-
-    echo "<script>alert(".$_POST['email_send_message'].")</script>";
-    $post_title = get_the_title( $post_id );
-    $post_url = get_permalink( $post_id );
-    $subject = 'Запись была обновлена';
-
-    $message = "На вашем сайте следующая запись была обновлена:\n\n";
-    $message .= $post_title . ": " . $post_url;
-    wp_die( 'hey' );
-    // Отправляем письмо.
-    wp_mail( get_option('admin_email'), $subject, $message );
-}*/
+add_action("save_post", 'add_custom_meta_box');
 
 
+function add_custom_meta_box(){
 
+    if (get_current_screen()->id == 'product') {
+        add_meta_box('my-meta-box', 'Email', 'render_my_meta_box', null, 'side', 'low');
+    }
+}
 
+function render_my_meta_box($post = 0)
+{
+    ?>
 
+    <span>Введите Email:</span><br><br>
+    <input type="email" id="email_send_message" name="email_send_message">
+
+    <?php
+}
 

@@ -1505,17 +1505,9 @@ function register_and_do_post_meta_boxes( $post ) {
 	if ( $thumbnail_support && current_user_can( 'upload_files' ) ) {
 		add_meta_box( 'postimagediv', esc_html( $post_type_object->labels->featured_image ), 'post_thumbnail_meta_box', null, 'side', 'low', array( '__back_compat_meta_box' => true ) );
 	}
-    add_meta_box( 'my-meta-box', 'Email', 'render_my_meta_box', null, 'side', 'low' );
 
 
-function render_my_meta_box(){?>
 
-
-    <span>Введите Email:</span><br><br>
-    <input type="email" id="email_send_message" name="email_send_message">
-
-<?php
-}
 
 
 if ( post_type_supports( $post_type, 'excerpt' ) ) {
